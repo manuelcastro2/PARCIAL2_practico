@@ -27,13 +27,14 @@ const styles = StyleSheet.create({
     },
     modalView: {
         minWidth:Dimensions.get('window').width -100,
+        alignItems:'center',
         backgroundColor: '#fff',
         borderRadius: 4,
         padding: 0,
         shadowColor: '#000',
         shadowOffset: {
             width: 0,
-            height: 3,
+            height: 0,
         }
     }
 });

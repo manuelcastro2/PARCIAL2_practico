@@ -14,7 +14,7 @@ export default function App() {
   const [visibility, setVisibility] = useState(false)
   const [pointsFilter,setpointsFilter]=useState(true)
 
-  const togglePointsFilter=()=>setpointsFilter(pointsFilter)
+  const togglePointsFilter=()=>setpointsFilter(!pointsFilter)
 
   const handleLongPress = ({ nativeEvent }) => {
     setVisibilityFilter('new_puntos')
@@ -38,8 +38,8 @@ export default function App() {
     setVisibility(true)
   }
 
-  console.log(puntos)
-console.log(puntosTem)
+ console.log(puntos)
+//console.log(puntosTem)
 
   return (
     <View style={styles.container}>

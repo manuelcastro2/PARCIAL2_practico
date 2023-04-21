@@ -20,16 +20,22 @@ export default ({ puntos,closeModal }) => {
 
 const styles = StyleSheet.create({
     button: {
-        paddingBottom:15,
+      paddingBottom:15,
+      paddingRight:15
     },
     list: {
-        height: Dimensions.get('window').height - 250,
+        height: Dimensions.get('window').height-105,
     },
     item: {
+        fontSize:25,
         borderBottomWidth: 1,
         borderColor: '#ccc',
-        height: 50,
-        justifyContent: 'center',
-        padding: 15,
+        width:200,
+        heigh: 50,
+        paddingHorizontal:40,
+        paddingVertical:10,
+       alignItems: 'center',
+       justifyContent:'center',
+        color:'black'
     }
 })
