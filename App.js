@@ -1,3 +1,5 @@
+//Manuel Ricardo Castro Malaver
+//Jarley Ariel Duarte Rodriguez
 import React,{useState} from 'react';
 import { StyleSheet, Text, View, Dimensions,Button } from 'react-native';
 import Map from './components/Map';
