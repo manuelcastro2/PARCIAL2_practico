@@ -1,9 +1,10 @@
-import React from 'react';
+
 import { StyleSheet, Dimensions } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
 
 export default ({ onLongPress, puntos, pointsFilter }) => {
+    
     return (
         <MapView
             style={styles.map}

@@ -31,11 +31,11 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         borderColor: '#ccc',
         width:200,
-        heigh: 50,
+        height: 50,
         paddingHorizontal:40,
         paddingVertical:10,
        alignItems: 'center',
        justifyContent:'center',
-        color:'#000'
+        color:'#000  '
     }
 })
